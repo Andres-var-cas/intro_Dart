@@ -5,8 +5,12 @@ void main(List<String> args) {
     print(frutas[i]);
   }
 
-  // forEach hace lo mismo sin tuilizar mucho codigo
+  // for in es mas facil de leer
   for (var fruta in frutas) {
     print(fruta);
   }
+
+  // forEach hace lo mismo sin utilizar mucho codigo
+
+  frutas.forEach((var fruta) => print(fruta));
 }
